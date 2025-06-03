@@ -111,6 +111,14 @@ const en = {
   __MESSAGE_NEW_VERSION_AVAILABLE: (version) => `A new version ${version} is now available!`,
   __SOURCE_NAME_SOME_GROUP: 'Someone Group',
   __SOURCE_NAME_SOMEONE: 'Someone',
+  __COMMAND_BOT_AUTO_REPLY_LABEL: '自動回覆',
+  __COMMAND_BOT_AUTO_REPLY_TEXT: '開啟或關閉自動回覆模式，讓 AI 自動回應常見問題',
+  __COMMAND_BOT_AUTO_REPLY_REPLY: '請判斷以下訊息是否為待辦事項，若是請用 JSON 格式輸出：
+  ("task": "",
+  "due": "",
+  "note": "",
+ )',
+  __COMMAND_BOT_AUTO_REPLY_ALIASES: ['自動回應', '自回', '自動答覆'],
 };
 
 export default en;

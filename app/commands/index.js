@@ -33,7 +33,7 @@ import COMMAND_SYS_REPORT from './sys-report.js';
 import COMMAND_SYS_VERSION from './sys-version.js';
 import COMMAND_TRANSLATE_TO_EN from './translate-to-en.js';
 import COMMAND_TRANSLATE_TO_JA from './translate-to-ja.js';
-import __COMMAND_BOT_AUTO_REPLY from './bot-auto-reply.js';
+import COMMAND_BOT_AUTO_REPLY from './bot-auto-reply.js';
 
 export const ALL_COMMANDS = [
   COMMAND_BOT_AUTO_REPLY
